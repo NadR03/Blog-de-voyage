@@ -1,0 +1,8 @@
+Gestion des utilisateurs : Vous avez déjà commencé à travailler sur cette partie. Vous pouvez ajouter des fonctionnalités comme la mise à jour du profil de l'utilisateur, la récupération du mot de passe, etc.  
+Création de posts de voyage : Les utilisateurs devraient être en mesure de créer des posts de voyage avec des détails comme le titre, le contenu, les images, la date du voyage, etc.  
+Commentaires : Les utilisateurs devraient être en mesure de commenter les posts de voyage.  
+Likes/Dislikes : Les utilisateurs devraient être en mesure d'aimer ou de ne pas aimer les posts de voyage.  
+Recherche : Les utilisateurs devraient être en mesure de rechercher des posts de voyage en fonction de différents critères comme le lieu, la date, le titre, etc.  
+Filtrage et tri : Les utilisateurs devraient être en mesure de filtrer et de trier les posts de voyage en fonction de différents critères comme la date de publication, le nombre de likes, etc.  
+Abonnement : Les utilisateurs devraient être en mesure de s'abonner à d'autres utilisateurs et de recevoir des notifications lorsque ces utilisateurs publient de nouveaux posts de voyage.  
+Sécurité : Assurez-vous que votre application est sécurisée. Par exemple, seuls les utilisateurs authentifiés devraient être en mesure de créer des posts de voyage, de commenter, de liker, etc. De plus, un utilisateur ne devrait être en mesure de mettre à jour ou de supprimer que ses propres posts de voyage et commentaires.
