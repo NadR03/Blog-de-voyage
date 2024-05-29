@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <h1 class="text-center" style="padding-top: 40px; padding-bottom: 40px;">Voyageons ensemble !</h1>
+  <div class="row">
+      <h2 style="padding-bottom: 20px" >Les derniers articles</h2>
+      <app-articles></app-articles>
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h6 class="text-center">Abonnez-vous à notre newsletter ! </h6>
+          <form (ngSubmit)="subscribeToNewsletter()" #newsletterForm="ngForm">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Votre adresse e-mail" name="email" ngModel required>
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">S'abonner</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
