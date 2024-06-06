@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {MatMenu, MatMenuItem, MatMenuTrigger} from "@angular/material/menu";
 import {MatIcon} from "@angular/material/icon";
 import {MatButton} from "@angular/material/button";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-navbar',
@@ -12,7 +13,8 @@ import {MatButton} from "@angular/material/button";
     MatMenu,
     MatIcon,
     MatButton,
-    MatMenuItem
+    MatMenuItem,
+    RouterLink
   ],
   standalone: true
 })

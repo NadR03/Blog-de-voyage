@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from "../navbar/navbar.component";
-import { ArticlesComponent } from "../post-list/articles.component";
 import {FormsModule} from "@angular/forms";
+import {PostListComponent} from "../post-list/post-list.component";
+
 
 @Component({
   selector: 'app-home',
@@ -10,8 +11,8 @@ import {FormsModule} from "@angular/forms";
   imports: [
     CommonModule,
     NavbarComponent,
-    ArticlesComponent,
-    FormsModule
+    FormsModule,
+    PostListComponent
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
